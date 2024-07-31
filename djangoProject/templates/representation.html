@@ -1,0 +1,9 @@
+<div style="margin-bottom: 100px">
+  <h4 style="color: Magenta">Используется представление формы {{ representation }}</h4>
+  {% if representation == 'HTML' %}
+    <h4><a href="/django_sign_up/">Использовать форму Django</a></h4>
+  {% else %}
+    <h4><a href="/html_sign_up/">Использовать форму HTML</a></h4>
+  {% endif %}
+  <h3 style="color:DarkCyan">Вернуться <a href="/">на главную</a> страницу</h3>
+</div>
